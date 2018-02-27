@@ -1,0 +1,23 @@
+* {
+  font-family: 'Sofadi One', cursive;
+}
+.shipping {
+  background-color: #000;
+  color: #fff;
+  font-size: 17px;
+}
+.search {
+  width: 60%;
+
+}
+.registry li {
+  list-style: none;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #000;
+}

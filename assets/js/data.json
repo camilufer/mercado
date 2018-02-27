@@ -1,0 +1,210 @@
+{
+"decoración": [
+  {
+    "id": 1,
+    "img": "assets/img/lavander.jpg",
+    "name": "Vela Aromática",
+    "marca": "Mica",
+    "price": "$4.990",
+    "description": "Vela en frasco con tapa purple, con un delicado aroma a Lavanda",
+    "category": "decoración",
+    "stock": "10"
+  },
+  {
+    "id": 2,
+    "img": "assets/img/home-cuadro.jpg",
+    "name": "Marco fotos Home",
+    "marca": "Mica",
+    "price": "$3.990",
+    "description": "Marco para dos fotos Home",
+    "category": "decoración",
+    "stock": "7"
+  },
+  {
+    "id": 3,
+    "img": "assets/img/mural-flower.jpg",
+    "name": "Mural de flores",
+    "marca": "Umbra",
+    "price": "$15.990",
+    "description": "Decoración mural flower cooper, para ambiantar cualquier lugar que necesites",
+    "category": "decoración",
+    "stock": "12"
+  },
+  {
+    "id": 4,
+    "img": "assets/img/espejo.jpg",
+    "name": "Espejo vintage",
+    "marca": "Zagora",
+    "price": "$10.990",
+    "description": "Espejo con leves aplicaciones vintage",
+    "category": "decoración",
+    "stock": "5"
+  },
+  {
+    "id": 5,
+    "img": "assets/img/reloj.jpg",
+    "name": "Reloj Antique",
+    "marca": "Zagora",
+    "price": "$18.990",
+    "description": "Reloj decorativo antique rojo",
+    "category": "decoración",
+    "stock": "9"
+  }
+],
+"deportes": [
+  {
+    "id": 6,
+    "img": "assets/img/pilates.jpg",
+    "name": "Set Pilates Azul",
+    "marca": "Bodytone",
+    "price": "$17.990",
+    "description": "Set principiante pilates, incluye mat yoga, pelota y anillo de pilates",
+    "category": "deportes",
+    "stock": "5"
+  },
+  {
+    "id": 7,
+    "img": "assets/img/ball-balance.jpg",
+    "name": "Ball Balance",
+    "marca": "Barlosport",
+    "price": "$14.990",
+    "description": "Ball balance plataforma de actividades",
+    "category": "deportes",
+    "stock": "15"
+  },
+  {
+    "id": 8,
+    "img": "assets/img/band-set.jpg",
+    "name": "Power Band Set",
+    "marca": "Body Sculpture",
+    "price": "$6.990",
+    "description": "Band set, incluye 3 diferentes colores",
+    "category": "deportes",
+    "stock": "8"
+  },
+  {
+    "id": 9,
+    "img": "assets/img/hand-grip.jpg",
+    "name": "Soft Hand Grip",
+    "marca": "Body Sculpture",
+    "price": "$3.990",
+    "description": "Hand grip con textura mas suave para relaizar tus ejercicios",
+    "category": "deportes",
+    "stock": "13"
+  },
+  {
+    "id": 10,
+    "img": "assets/img/cuerdas.jpg",
+    "name": "Cuerdas fitness",
+    "marca": "Live Up",
+    "price": "$8.990",
+    "description": "Cuerdas para realizar ejercicios",
+    "category": "deportes",
+    "stock": "6"
+  }
+],
+"accesorios": [
+  {
+    "id": 11,
+    "img": "assets/img/carcasa.jpg",
+    "name": "Flamenco glitter",
+    "marca": "Lounge",
+    "price": "$8.990",
+    "description": "Carcasa mujer flamenco iPhone 6/7",
+    "category": "accesorios",
+    "stock": "18"
+  },
+  {
+    "id": 12,
+    "img": "assets/img/bolso.jpg",
+    "name": "Cartera de hombro",
+    "marca": "Carpisa",
+    "price": "$7.990",
+    "description": "Cartera de hombro diseño unisex y flexible",
+    "category": "accesorios",
+    "stock": "14"
+  },
+  {
+    "id": 13,
+    "img": "assets/img/bolso-sybilla.jpg",
+    "name": "Bolso estampado Tropical",
+    "marca": "Sybilla",
+    "price": "$3.990",
+    "description": "Bolso de playa estampado tropical",
+    "category": "accesorios",
+    "stock": "11"
+  },
+  {
+    "id": 14,
+    "img": "assets/img/echarpe.jpg",
+    "name": "Echarpe",
+    "marca": "Basement",
+    "price": "$4.790",
+    "description": "Echarpe/bufanda",
+    "category": "accesorios",
+    "stock": "20"
+  },
+  {
+    "id": 15,
+    "img": "assets/img/cosmetiquero.jpg",
+    "name": "Cosmetiquero",
+    "marca": "Amphora",
+    "price": "$8.990",
+    "description": "Amplio cosmetiqquero",
+    "category": "accesorios",
+    "stock": "9"
+  }
+],
+"juegos": [
+  {
+    "id": 16,
+    "img": "assets/img/mansion-luigi.jpg",
+    "name": "Luigi's Mansion",
+    "marca": "Nintendo",
+    "price": "$19.990",
+    "description": "Luigi's mansion 2 3DS",
+    "category": "juegos",
+    "stock": "20"
+  },
+  {
+    "id": 17,
+    "img": "assets/img/godofwar.jpg",
+    "name": "God of War collection",
+    "marca": "Sony",
+    "price": "$17.990",
+    "description": "God of war 1 y 2 PS3",
+    "category": "juegos",
+    "stock": "15"
+  },
+  {
+    "id": 18,
+    "img": "assets/img/little-big-planet.jpg",
+    "name": "Little Big Planet",
+    "marca": "Sony",
+    "price": "$18.990",
+    "description": "Little big planet ps-vita",
+    "category": "juegos",
+    "stock": "17"
+  },
+  {
+    "id": 19,
+    "img": "assets/img/xenoverse.jpg",
+    "name": "Dragon Ball Xenoverse 2",
+    "marca": "Bandai",
+    "price": "$33.990",
+    "description": "PS4 DB-Xenoverse 2",
+    "category": "juegos",
+    "stock": "18"
+  },
+  {
+    "id": 20,
+    "img": "assets/img/metal-gear.jpg",
+    "name": "Metal Gear Solid 5",
+    "marca": "Konami",
+    "price": "$39.990",
+    "description": "Metal gear solid V The Phantom Pain",
+    "category": "juegos",
+    "stock": "14"
+  }
+]
+}
