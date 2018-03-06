@@ -17,7 +17,7 @@ Router.prototype = {
     rootElem: undefined,
     constructor: function (routes) {
         this.routes = routes;
-        this.rootElem = document.getElementById('app');
+        this.rootElem = document.getElementById('productos-generales');
     },
     init: function () {
         var r = this.routes;
@@ -47,7 +47,7 @@ Router.prototype = {
     },
     goToRoute: function (htmlName) {
         (function(scope) {
-            var url = 'views/' + htmlName,
+            var url = 'assets/views/' + htmlName,
                 xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function () {
                 if (this.readyState === 4 && this.status === 200) {

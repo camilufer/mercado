@@ -80,11 +80,11 @@
             <section id="categories" class="row hidden-xs hidden-sm">
                  <div class=" text-center">
                    <ul id="categories" class="examples col-lg-12 col-md-12">
-                     <li class="text-center option text-uppercase"><a class="option-desktop" href="">decoracion</a></li>
-                     <li class="text-center option text-uppercase"><a class="option-desktop" href="">deportes</a></li>
-                     <li class="text-center option text-uppercase"><a class="option-desktop" href="">accesorios</a></li>
-                     <li class="text-center option text-uppercase"><a class="option-desktop" href="">juegos</a></li>
-                     <li class="text-center option text-uppercase"><a class="option-desktop" href="">example</a></li>
+                     <li class="text-center option text-uppercase"><a class="option-desktop" href="#decoracion">decoracion</a></li>
+                     <li class="text-center option text-uppercase"><a class="option-desktop" href="#deportes">deportes</a></li>
+                     <li class="text-center option text-uppercase"><a class="option-desktop" href="#accesorios">accesorios</a></li>
+                     <li class="text-center option text-uppercase"><a class="option-desktop" href="#juegos">juegos</a></li>
+                    
                    </ul>
                  </div>
             </section>
@@ -145,10 +145,10 @@
 
 <script type="text/javascript" src="assets/js/route.js"></script>
 <script type="text/javascript" src="assets/js/router.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
  
 <script>
 $(document).ready(function(){
-
 /* ================================================= DOCUMENT READY ================================================= */
   
   //Leer data json
@@ -159,7 +159,6 @@ $(document).ready(function(){
   if ( request.readyState === 4 && request.status === 200 ) {
       var JSON_object = JSON.parse(request.responseText);
       //console.log(my_JSON_object);
-
       for(var itemA in JSON_object) { //Recorrer categorias
         //console.log(itemA, JSON_object[itemA]);
         
@@ -202,7 +201,6 @@ $(document).ready(function(){
       }
     }
   }
-
   
   //Detectar cambios en los selects
   $(document).on("change",".contenedor-producto select", function() {
@@ -215,9 +213,7 @@ $(document).ready(function(){
   });
   
 /* ================================================= DOCUMENT READY ================================================= */
-
 });
-
 //Funcion para enviar la data
 function pagarItem(elemento)
 {

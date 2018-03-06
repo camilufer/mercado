@@ -6,7 +6,6 @@
 'use strict';
 
 (function () {
-    var Router = require('react-router');
     function init() {
         
         var router = new Router([
